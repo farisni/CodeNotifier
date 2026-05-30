@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <mask id="dot-cutout">
+      <rect width="200" height="200" fill="white" />
+      <circle cx="140" cy="70" r="28" fill="black" />
+    </mask>
+  </defs>
+
+  <path mask="url(#dot-cutout)" fill="#000000" d="
+    M 100 30
+    C 65 30 55 55 55 85
+    V 125
+    L 35 145
+    V 155
+    H 165
+    V 145
+    L 145 125
+    V 85
+    C 145 55 135 30 100 30 Z
+  "/>
+
+  <path fill="#000000" d="M 80 155 A 20 20 0 0 0 120 155 Z"/>
+
+  <circle cx="140" cy="70" r="16" fill="#000000" />
+</svg>
